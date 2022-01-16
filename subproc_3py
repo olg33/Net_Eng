@@ -1,0 +1,16 @@
+#!/usr/bin/env python3.8
+
+import subprocess
+
+cmd = "traceroute 8.8.8.8"
+output = subprocess.check_output(["bash", "-c", cmd])
+print(output)
+
+
+
+
+
+
+
+
+
